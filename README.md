@@ -9,13 +9,6 @@
 ## 使用
 
 ```bash
-# pnpm
-pnpm create bingwu
-
-# npm
-npm create bingwu@latest
-
-# npx
 npx bingwu-create
 ```
 
