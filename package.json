@@ -32,7 +32,8 @@
     "release": "bumpp",
     "start": "tsx src/index.ts",
     "typecheck": "tsc",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "publish:npm": "npm publish"
   },
   "dependencies": {
     "@clack/prompts": "catalog:deps",
