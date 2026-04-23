@@ -1,7 +1,7 @@
 {
   "name": "bingwu-create",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packageManager": "pnpm@10.33.0",
   "description": "快速拉取项目模版的 CLI 工具",
   "author": "hujiacheng",
