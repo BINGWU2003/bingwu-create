@@ -35,16 +35,14 @@
     "prepare": "simple-git-hooks",
     "publish:npm": "npm publish"
   },
-  "dependencies": {
-    "@clack/prompts": "catalog:deps",
-    "kolorist": "catalog:deps"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",
     "@antfu/ni": "catalog:cli",
+    "@clack/prompts": "catalog:deps",
     "@types/node": "catalog:types",
     "bumpp": "catalog:cli",
     "eslint": "catalog:cli",
+    "kolorist": "catalog:deps",
     "lint-staged": "catalog:cli",
     "simple-git-hooks": "catalog:cli",
     "tsdown": "catalog:cli",
