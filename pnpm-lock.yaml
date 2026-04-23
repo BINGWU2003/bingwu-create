@@ -48,13 +48,6 @@ catalogs:
 importers:
 
   .:
-    dependencies:
-      '@clack/prompts':
-        specifier: catalog:deps
-        version: 0.9.1
-      kolorist:
-        specifier: catalog:deps
-        version: 1.8.0
     devDependencies:
       '@antfu/eslint-config':
         specifier: catalog:cli
@@ -62,6 +55,9 @@ importers:
       '@antfu/ni':
         specifier: catalog:cli
         version: 30.0.0
+      '@clack/prompts':
+        specifier: catalog:deps
+        version: 0.9.1
       '@types/node':
         specifier: catalog:types
         version: 25.6.0
@@ -71,6 +67,9 @@ importers:
       eslint:
         specifier: catalog:cli
         version: 10.2.0(jiti@2.6.1)
+      kolorist:
+        specifier: catalog:deps
+        version: 1.8.0
       lint-staged:
         specifier: catalog:cli
         version: 16.4.0
